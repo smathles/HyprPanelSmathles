@@ -1,0 +1,65 @@
+{
+  "bar.customModules.updates.pollingInterval": 1440000,
+  "theme.font.size": "0.9rem",
+  "theme.font.name": "Iosevka Nerd Font Propo Heavy",
+  "theme.bar.menus.menu.volume.scaling": 100,
+  "theme.bar.menus.menu.battery.scaling": 100,
+  "theme.bar.layer": "bottom",
+  "theme.notification.scaling": 95,
+  "theme.osd.scaling": 90,
+  "theme.bar.menus.menu.dashboard.scaling": 89,
+  "theme.bar.menus.menu.dashboard.confirmation_scaling": 100,
+  "theme.bar.menus.menu.media.scaling": 95,
+  "theme.bar.menus.menu.network.scaling": 100,
+  "theme.bar.menus.menu.bluetooth.scaling": 100,
+  "theme.bar.menus.menu.clock.scaling": 95,
+  "theme.bar.menus.menu.notifications.scaling": 95,
+  "theme.bar.menus.menu.power.scaling": 95,
+  "theme.bar.outer_spacing": "0em",
+  "theme.bar.buttons.y_margins": "0em",
+  "theme.bar.floating": true,
+  "theme.bar.margin_sides": "0em",
+  "theme.bar.margin_top": "0.3em",
+  "theme.bar.opacity": 0,
+  "bar.workspaces.show_numbered": true,
+  "bar.workspaces.numbered_active_indicator": "highlight",
+  "bar.workspaces.workspaces": 4,
+  "bar.workspaces.hideUnoccupied": true,
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "systray",
+        "bluetooth",
+        "volume",
+        "battery",
+        "clock",
+        "notifications"
+      ]
+    },
+    "1": {
+      "left": [],
+      "middle": [],
+      "right": []
+    },
+    "2": {
+      "left": [],
+      "middle": [],
+      "right": []
+    }
+  },
+  "theme.bar.buttons.radius": "0.7em",
+  "theme.bar.buttons.spacing": "0.2em",
+  "bar.clock.icon": "󰸗",
+  "theme.bar.scaling": 90,
+  "theme.bar.buttons.padding_y": "0.2rem",
+  "bar.clock.format": "%d %b %I:%M %p",
+  "bar.bluetooth.label": false
+}
