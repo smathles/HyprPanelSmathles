@@ -66,19 +66,22 @@ pacman-contrib
 power-profiles-daemon
 ```
 
+<<<<<<< HEAD
 ### Arch
 
 pacman:
+=======
+
+### Arch
+Pacman:
 ```bash
 sudo pacman -S pipewire libgtop bluez bluez-utils btop networkmanager dart-sass wl-clipboard brightnessctl swww python gnome-bluetooth-3.0 pacman-contrib power-profiles-daemon
 ```
 
 AUR:
-
 ```bash
 yay -S grimblast-git gpu-screen-recorder hyprpicker matugen-bin python-gpustat aylurs-gtk-shell-git
 ```
-
 ### Fedora
 
 COPR - Add [solopasha/hyprland](https://copr.fedorainfracloud.org/coprs/solopasha/hyprland/) for most hyprland-related dependencies, and [hues-sueh/packages](https://copr.fedorainfracloud.org/coprs/heus-sueh/packages/) for matugen. Both provide the `swww` package, so prioritise the former repo:
@@ -106,12 +109,41 @@ flatpak install flathub --system com.dec05eba.gpu_screen_recorder
 #### Optional Dependencies
 
 pip:
+=======
+*dnf/copr:*
+```bash
+sudo dnf copr enable solopasha/hyprland; dnf install aylurs-gtk-shell swww; sudo dnf copr enable heus-sueh/packages; dnf install matugen
+```
+
+*NPM:*
+```bash
+sudo dnf install nodejs; sudo npm install -g sass
+```
+
+*flatpak:*
+```bash
+# Do NOT use the copr repo! It is outdated and unmaintained!
+sudo flatpak install com.dec05eba.gpu_screen_recorder
+```
+
+*python (Optional):*
+>>>>>>> 79d9adf (edit readme)
 ```bash
 sudo dnf install python python3-pip; pip install gpustat pywal
 ```
 
+<<<<<<< HEAD
 ### NixOS
 
+=======
+*Manual (git clone):*
+```bash
+# make sure to cd into your preferred directory before cloning the repo, something like .config/hypr or custom git directory
+sudo dnf install jq grim slurp; git clone https://github.com/hyprwm/contrib.git; cd contrib/grimblast; make install
+```
+
+### NixOS
+>>>>>>> 79d9adf (edit readme)
 For NixOS/Home-Manager, see [NixOS & Home-Manager instructions](#nixos--home-manager).
 
 ## Instructions
